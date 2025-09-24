@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-section label, .form-section select, .form-section input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ticket-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.history {
+  margin-top: 30px;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}

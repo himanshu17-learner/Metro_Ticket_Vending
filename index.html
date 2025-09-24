@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Metro Ticket Vending</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Metro Ticket Vending</h1>
+    <div class="form-section">
+      <label for="from">From:</label>
+      <select id="from"></select>
+
+      <label for="to">To:</label>
+      <select id="to"></select>
+
+      <label for="ticketType">Ticket Type:</label>
+      <select id="ticketType">
+        <option value="single">Single Journey</option>
+        <option value="return">Return</option>
+        <option value="daypass">Day Pass</option>
+      </select>
+
+      <label for="qty">Quantity:</label>
+      <input type="number" id="qty" value="1" min="1">
+
+      <button id="calculate">Calculate Fare</button>
+    </div>
+
+    <div class="ticket-info" id="ticketInfo"></div>
+
+    <div class="history">
+      <h2>Purchase History</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
